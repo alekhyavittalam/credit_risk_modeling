@@ -66,21 +66,23 @@ Be sure to include the following plots in your README or as `images/`:
 
 2. **Precision-Recall Curve**  
    Shows the trade-off for different thresholds  
-   `figures/precision_recall_curve.png`
+   ![ROC Curve](figures/roc_curve.png)
 
 3. **Confusion Matrix (Annotated)**  
    For default vs non-default predictions  
-   `figures/confusion_matrix.png`
+   ![Confusion Matrix LR](figures/cm_lr.png)
 
-4. **SHAP Summary Plot (Bar or Beeswarm)**  
+   ![Confusion Matrix XGBoost](figures/cm_xgb.png)
+
+5. **SHAP Summary Plot (Bar or Beeswarm)**  
    Top predictive features across the test set  
-   `figures/shap_summary.png`
+   ![SHAP Summary](figures/shap_summary_bar.png)
 
-5. **SHAP Waterfall Plot (Single Example)**  
+6. **SHAP Waterfall Plot (Single Example)**  
    Explanation for why a high-risk prediction was made  
-   `figures/shap_waterfall.png`
+   ![SHAP Waterfall Plot](figures/shap_waterfall_high_risk.png)
 
-6. **Risk Tier Distribution Plot**  
+7. **Risk Tier Distribution Plot**  
    Pie chart or bar plot showing distribution across Approve / Review / Reject  
    `figures/risk_tiers.png`
 
